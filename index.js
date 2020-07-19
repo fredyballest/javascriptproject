@@ -16,8 +16,6 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
 
-const PORT = 4000 || process.env.PORT;
-
 app.use(express.static(path.join(__dirname, 'public')));
 
 let SessionWOD = '123456';
@@ -59,6 +57,8 @@ io.on('connection', (socket) => {
     io.emit('message', ' A user has left the Chat');
   });
 });
+
+const PORT = process.env.PORT || 3000;
 
 server.listen(PORT, () =>
   console.log(`Server  Sockets running on port ${PORT}`)
