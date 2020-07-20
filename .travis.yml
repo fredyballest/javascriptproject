@@ -12,3 +12,5 @@ deploy:
   api_key:
     secure: $APIACCESS
   app: sheltered-dawn-47902
+  on:
+    branch: master
