@@ -12,5 +12,3 @@ deploy:
   api_key:
     secure: db514957-be67-4f20-80f2-b0d100363749
   app: sheltered-dawn-47902
-  on:
-    branch: master
