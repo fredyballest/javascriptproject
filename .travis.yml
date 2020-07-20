@@ -9,6 +9,5 @@ script:
   - npm run test
 deploy:
   provider: heroku
-  api_key:
-    secure: $APIACCESS
+  api_key: $APIACCESS
   app: sheltered-dawn-47902
