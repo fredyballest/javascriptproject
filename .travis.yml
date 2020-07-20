@@ -10,5 +10,5 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: 'f013b7ea-83fc-4496-92e4-e42379501106'
+    secure: $APIACCESS
   app: sheltered-dawn-47902
