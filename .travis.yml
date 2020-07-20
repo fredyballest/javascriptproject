@@ -9,6 +9,5 @@ script:
   - npm run test
 deploy:
   provider: heroku
-  api_key:
-    secure: f013b7ea-83fc-4496-92e4-e42379501106
+  api_key: 22118f53-8504-4aaa-95d1-d38e938bc5b9
   app: sheltered-dawn-47902
